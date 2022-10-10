@@ -1,5 +1,11 @@
 .container {
-  padding: 0 2rem;
+  width: 100%;
+  height: 100vh;
+  padding: 12px;
+  background-image: url(../../public/background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main {
@@ -127,3 +133,5 @@
     filter: invert(1);
   }
 }
+
+@import "./home.css"
